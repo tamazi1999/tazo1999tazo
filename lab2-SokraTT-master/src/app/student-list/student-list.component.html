@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Student-list</title>
+        <link rel="stylesheet" href="student-list.component.css">
+    </head>
+    <body>
+        <div class="div-container">
+            <table class="table-list">
+                <thead>
+                <tr class="tr-class">
+                    <th class="th-class">Name</th>
+                    <th class="th-class">Lastname</th>
+                    <th class="th-class">ID</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor = "let product of students">
+                    <td class="td-class">{{product.name}}</td>
+                    <td class="td-class">{{product.lastname}}</td>
+                    <td class="td-class">{{product.ID}}</td>
+                </tr>
+            </tbody>
+            </table>
+
+        </div>
+
+
+    </body>
+</html>

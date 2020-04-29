@@ -1,0 +1,22 @@
+.div-container{
+    width: 100%;
+    display:inline-block;
+    text-align: center;
+    background-color:grey;
+}
+.table-list{
+    padding: 20px 20px;
+    margin: 0 auto;
+    border: 1px solid black;
+
+}
+.tr-class{
+    background-color: white;
+}
+.th-class{
+    border: 1px solid black;
+    padding: 0px 20px;
+}
+.td-class{
+    background-color: silver;
+}
